@@ -19,7 +19,7 @@ spec:
     tls:
       trustedCertificates:
         - certificate: ca.crt
-          secretName: apic-clust-90fe0d55-platform-api
+          secretName: test-tls-cert #apic-clust-90fe0d55-platform-api
     template:
       pod:
         spec:
