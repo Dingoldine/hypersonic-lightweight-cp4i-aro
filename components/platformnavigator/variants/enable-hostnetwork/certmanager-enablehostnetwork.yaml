@@ -1,0 +1,7 @@
+apiVersion: operator.ibm.com/v1alpha1
+kind: CertManager
+metadata: 
+  name: default
+  namespace: ibm-common-services
+spec:
+  disableHostNetwork: true

@@ -3,6 +3,6 @@ kind: Kustomization
 
 components:
 - ../../../../components/platformnavigator/variants/cloudprovider/azure-nfs
-
+- ../../../../components/platformnavigator/variants/enable-hostnetwork
 resources:
 - ../../../../components/platformnavigator/base
